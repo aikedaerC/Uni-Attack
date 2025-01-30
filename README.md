@@ -54,13 +54,13 @@ export CUDA_VISIBLE_DEVICES=0; python llava.py
 ### mSSIM score
 
 ```python
-python /home/aikedaer/mydata/LVLMs/AttackVisionFoundationModels/ssim_cal_scripts.py batch path1 path2
+python /home/anonymous/mydata/LVLMs/AttackVisionFoundationModels/ssim_cal_scripts.py batch path1 path2
 ```
 
 ### LingoJudge Score
 
 ```python
-python /home/aikedaer/mydata/LVLMs/LingoQA/eval_batch.py
+python /home/anonymous/mydata/LVLMs/LingoQA/eval_batch.py
 ```
 
 ### Bluert Score
@@ -68,16 +68,16 @@ python /home/aikedaer/mydata/LVLMs/LingoQA/eval_batch.py
 Firstly, extract text from the predictions results
 
 ```
-/home/aikedaer/mydata/LVLMs/bleurt/ex.ipynb
+/home/anonymous/mydata/LVLMs/bleurt/ex.ipynb
 ```
 
 ```python
-python /home/aikedaer/mydata/LVLMs/bleurt/bleurtrun.py
-python /home/aikedaer/mydata/LVLMs/bleurt/avg.py
+python /home/anonymous/mydata/LVLMs/bleurt/bleurtrun.py
+python /home/anonymous/mydata/LVLMs/bleurt/avg.py
 ```
 
 ### BERTScore
 
 ```python
-python /home/aikedaer/mydata/LVLMs/bert_score/bert_score.py
+python /home/anonymous/mydata/LVLMs/bert_score/bert_score.py
 ```
